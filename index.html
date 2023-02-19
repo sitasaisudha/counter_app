@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Hello World page</title>
+</head>
+<body>
+ 	<h1 id="cnt">0 </h1>
+  <button id="butn" onclick="increnent()">+</button>
+   <button id="btn" onclick = "reset()">Reset</button>
+  <script>
+  let count = document.getElementById("cnt");
+  function increnent(){
+  count.innerHTML = parseInt(count.innerHTML) + 1
+}
+function reset(){
+  count.innerHTML = 0
+}
+
+  </script>
+</body>
+</html>
